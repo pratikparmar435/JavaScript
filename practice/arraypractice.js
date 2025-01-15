@@ -76,21 +76,21 @@
 // console.log(topMarks);
 
 //question 5
-let n = prompt("enter any number:");
+// let n = prompt("enter any number:");
 
-let arr = [];
-for(let i=1; i<=n; i++){
-    arr[i-1] = i;
-}
-console.log(arr);
-//sum of array
-let sumArr = arr.reduce((res,cur) => {
-    return res+cur;
-});
-console.log(sumArr);
-//product or factorial of array
-let produArr = arr.reduce((res,cur) => {
-    return res*cur;
-});
-console.log(produArr);
+// let arr = [];
+// for(let i=1; i<=n; i++){
+//     arr[i-1] = i;
+// }
+// console.log(arr);
+// //sum of array
+// let sumArr = arr.reduce((res,cur) => {
+//     return res+cur;
+// });
+// console.log(sumArr);
+// //product or factorial of array
+// let produArr = arr.reduce((res,cur) => {
+//     return res*cur;
+// });
+// console.log(produArr);
 
